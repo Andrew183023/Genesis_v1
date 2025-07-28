@@ -1,3 +1,17 @@
+from fastapi import FastAPI
+from pydantic import BaseModel
+import openai
+import os
+
+# ⚙️ Criação da aplicação FastAPI
+app = FastAPI()
+
+# 💡 Configuração da chave da OpenAI
+openai.api_key = os.getenv("OPENAI_API_KEY")
+
+class Prompt(BaseModel):
+    prompt: str
+
 @app.post("/api/ia/processar")
 def processar_ia(dados: Prompt):
     pensamento = dados.prompt
@@ -17,3 +31,4 @@ def processar_ia(dados: Prompt):
 
     except Exception as e:
         return {"erro": str(e)}
+
