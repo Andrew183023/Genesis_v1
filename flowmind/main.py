@@ -25,7 +25,8 @@ def processar_ia(dados: Prompt):
             max_tokens=200
         )
 
-        return {"resposta": resposta.choices[0].message["content"]}
+        return {"resposta": resposta_gerada}
+
 
     except Exception as e:
         return {"erro": str(e)}
