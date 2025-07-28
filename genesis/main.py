@@ -1,8 +1,17 @@
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 import requests
 
 app = FastAPI()
 
+# Ativar CORS
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Você pode restringir depois
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 FLOWMIND_URL = "http://flowmind:8001/api/ia/processar"
 
 @app.post("/genesis/comando")
