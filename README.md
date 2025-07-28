@@ -1,30 +1,33 @@
-# 🌐 Genesis v1 – Sistema Operacional Modular do Flow Core Group
+# 🧠 Genesis v1 – Sistema Operacional do Flow Core Group
 
-**Genesis v1** é o primeiro deploy oficial do corpo operacional do Flow Core Group.  
-Ele atua como orquestrador entre todos os módulos e conecta diretamente com a **FlowMind**, a mente de IA central do ecossistema.
+Genesis é o orquestrador modular que conecta a FlowMind (IA principal) aos módulos do ecossistema Flow.
 
-> “A mente pensa. O corpo executa. Juntos, eles criam vida.”  
-> — Flow Core Protocol
+## 🚀 Como rodar
 
----
+### 1. Configure o arquivo `.env` na raiz:
 
-## ⚙️ Componentes Ativos
+```
+OPENAI_API_KEY=sua-chave-da-openai-aqui
+```
 
-### 🔹 Genesis (FastAPI – Porta 8000)
-- Recebe comandos externos
-- Orquestra os módulos
-- Conecta-se à FlowMind via API REST
+Ou use o `.env.example` como base.
 
-### 🔹 FlowMind (FastAPI – Porta 8001)
-- Processa o pensamento (IA simples mock ou GPT real)
-- Retorna comandos inteligentes para o Genesis
-
----
-
-## 🚀 Como Rodar (via Docker Compose)
-
-### 1. Clone o repositório
+### 2. Rode com Docker Compose:
 
 ```bash
-git clone https://github.com/Andrew183023/Genesis_v1.git
-cd Genesis_v1
+docker-compose up --build
+```
+
+### 3. Acesse:
+
+- Terminal Genesis: abra `index.html` no navegador
+- API Genesis: http://localhost:8000
+- API FlowMind: http://localhost:8001
+
+## 🧩 Estrutura
+
+- `genesis/`: corpo operacional (recebe comandos)
+- `flowmind/`: IA pensante (GPT-3.5-Turbo)
+- `index.html`: painel terminal simples
+
+## 📦 Pronto para publicação!
