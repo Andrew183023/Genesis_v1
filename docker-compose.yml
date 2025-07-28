@@ -8,10 +8,10 @@ services:
     depends_on:
       - flowmind
 
-  flowmind:
-    build: ./flowmind
-    ports:
-      - "8001:8001"
-    env_file:
-      - .env
+flowmind:
+  build: ./flowmind
+  ports:
+    - "8001:8001"
+  env_file:
+    - .env
 
