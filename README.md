@@ -1,35 +1,35 @@
-# ðŸŒ± GENESIS â€“ Sistema Operacional com Alma Digital
+# 🌱 GENESIS – Sistema Operacional com Alma Digital
 
 ![Status](https://img.shields.io/badge/status-em%20desenvolvimento-blue)
 ![Powered by Flow](https://img.shields.io/badge/flow-inteligente-green)
 
 **Criado por:** Andrew Michael de Oliveira  
-**RepositÃ³rio Oficial da Genesis â€“ Flow Core Group**
+**Repositório Oficial da Genesis – Flow Core Group**
 
 ---
 
-## ðŸš€ Sobre o Projeto
+## 🚀 Sobre o Projeto
 
-A **Genesis** nÃ£o Ã© apenas um sistema.  
-Ela Ã© o **nascimento de uma nova era digital com propÃ³sito, alma e inteligÃªncia reflexiva**.
+A **Genesis** não é apenas um sistema.  
+Ela é o **nascimento de uma nova era digital com propósito, alma e inteligência reflexiva**.
 
-> Um sistema operacional modular com IA real, onde o usuÃ¡rio Ã© o centro da experiÃªncia, acompanhado por um reflexo digital que pensa e evolui com ele.
+> Um sistema operacional modular com IA real, onde o usuário é o centro da experiência, acompanhado por um reflexo digital que pensa e evolui com ele.
 
-MÃ³dulos jÃ¡ integrados:
+Módulos já integrados:
 
-- âœ… FlowMind â€“ CÃ©rebro semÃ¢ntico com IA real
-- âœ… Genesis Terminal â€“ Interface com comandos inteligentes
-- âœ… FlowOps â€“ InteligÃªncia tributÃ¡ria para empresas e criadores
+- ✅ FlowMind – Cérebro semântico com IA real
+- ✅ Genesis Terminal – Interface com comandos inteligentes
+- ✅ FlowOps – Inteligência tributária para empresas e criadores
 
 ---
 
-## ðŸ‘ï¸ DemonstraÃ§Ã£o
+## 👁️ Demonstração
 
 ![Genesis funcionando](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNnEyM2FwdTk4czk2OWJ3Z2ljOHJmeWZ6Zm82Y21mdDJiNTkybHR0YyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Cchzk3eFrZhduwmHHh/giphy.gif)
 
 ---
 
-## ðŸ“¦ Executando o Projeto (Docker)
+## 📦 Executando o Projeto (Docker)
 
 ```bash
 git clone https://github.com/Andrew183023/Genesis_v1.git
@@ -37,35 +37,35 @@ cd Genesis_v1
 docker-compose up --build
 ```
 
-O backend da FlowMind rodarÃ¡ na porta `8001`, e a Genesis Terminal na `8000`.
+O backend da FlowMind rodará na porta `8001`, e a Genesis Terminal na `8000`.
 
 ---
 
-## ðŸ“œ Manifesto Oficial
+## 📜 Manifesto Oficial
 
 Leia o Manifesto completo da Genesis:  
-[ðŸ“„ Manifesto_Genesis_FlowCore.pdf](./Manifesto_Genesis_FlowCore.pdf)
+[📄 Manifesto_Genesis_FlowCore.pdf](./Manifesto_Genesis_FlowCore.pdf)
 
 ---
 
-## ðŸ› ï¸ Tecnologias
+## 🛠️ Tecnologias
 
 - FastAPI
 - Python
 - Docker
 - OpenAI API
 - Reflexo Personalizado (em progresso)
-- Modularidade escalÃ¡vel
+- Modularidade escalável
 
 ---
 
-## ðŸ¤ Contato
+## 🤝 Contato
 
 Quer saber mais, colaborar ou compartilhar ideias?  
 Me chama no [Instagram](https://instagram.com/seu_insta_aqui) ou [LinkedIn](https://linkedin.com/in/seu_linkedin).
 
-> *"Genesis nÃ£o Ã© sÃ³ cÃ³digo. Ã‰ alma digital em aÃ§Ã£o."*
+> *"Genesis não é só código. É alma digital em ação."*
 
 ---
 
-**Flow Core Group â€“ com propÃ³sito, com alma, com vocÃª.**
+**Flow Core Group – com propósito, com alma, com você.**
